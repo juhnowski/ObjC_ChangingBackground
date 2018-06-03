@@ -26,4 +26,24 @@
 }
 
 
+- (IBAction)red:(id)sender {
+    self.view.backgroundColor = [UIColor redColor];
+}
+
+- (IBAction)blue:(id)sender {
+    self.view.backgroundColor = [UIColor blueColor];
+}
+
+- (IBAction)yellow:(id)sender {
+    self.view.backgroundColor = [UIColor yellowColor];
+}
+
+- (IBAction)black:(id)sender {
+    self.view.backgroundColor = [UIColor blackColor];
+}
+
+- (IBAction)white:(id)sender {
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+
 @end
